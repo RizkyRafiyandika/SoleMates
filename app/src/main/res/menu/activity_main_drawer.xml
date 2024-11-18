@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Menu items -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_ku"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/person_ku"
+        android:title="@string/menu_profile" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/cart_ku"
+        android:title="@string/menu_cart" />
+    <item
+        android:id="@+id/nav_aboutus"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/menu_aboutUs"></item>
+
+    <!-- Exit/Logout -->
+</menu>
+

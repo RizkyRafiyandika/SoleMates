@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/adek"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:id="@+id/text_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/amethysta"
+        android:text="Untuk Nama User"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:padding="5dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/no_telp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/amethysta"
+        android:padding="5dp"
+        android:text="081294951271"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT" />
+
+
+    <ImageButton
+        android:id="@+id/button_dark_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dark_mode_button" />
+
+
+</LinearLayout>
+

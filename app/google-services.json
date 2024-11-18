@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "498346484356",
+    "project_id": "project-mandiri-9fd10",
+    "storage_bucket": "project-mandiri-9fd10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498346484356:android:f45e58e9e5934eee0058d1",
+        "android_client_info": {
+          "package_name": "com.example.project_mandiri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498346484356-timvouqn5k8jenm04ls2sulcf1h4uvra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project_mandiri",
+            "certificate_hash": "8cc280988f151b60ed6b384d718191ab159f705a"
+          }
+        },
+        {
+          "client_id": "498346484356-gkkuob36n3fj7i77f5p6p7fsph6mm78b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTI_NtGYyd61cZ3xC6s39yEqCkDN5hC0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498346484356-gkkuob36n3fj7i77f5p6p7fsph6mm78b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

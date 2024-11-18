@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".registerActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/app_theme"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".20" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:scrollbarSize="14sp"
+        android:text="Register"
+        android:textColor="@color/maincolor"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        style="@style/custom_card_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="75dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/custom_card_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_person_outline_24"
+                android:drawableTint="@color/app_theme_border"
+                android:ems="10"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:digits="0123456789+"
+                android:paddingStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_user"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawableTint="@color/app_theme_border"
+                android:ems="10"
+                android:hint="Username/email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etPhoneNumber" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawableTint="@color/app_theme_border"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_user" />
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/app_theme_border"
+                android:text="SIGN UP"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/app_theme"
+                app:cornerRadius="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_password"
+                app:rippleColor="@color/app_theme" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:orientation="horizontal"
+                android:scrollbarStyle="outsideInset"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnRegister">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Don't Have an Account?" />
+
+                <TextView
+                    android:id="@+id/tvbuttonSignIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/app_theme_light"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="8dp"
+                    android:text="SIGN IN"
+                    android:textColor="#0091EA"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

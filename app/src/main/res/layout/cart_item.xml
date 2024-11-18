@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Gambar Barang -->
+    <ImageView
+        android:id="@+id/image_cart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/person_ku"
+        android:background="@drawable/person_ku"/>
+
+    <!-- Detail Barang -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp">
+
+        <!-- Nama Barang -->
+        <TextView
+            android:id="@+id/text_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/akaya_telivigala"/>
+
+        <!-- Harga Barang -->
+        <TextView
+            android:id="@+id/text_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amethysta"/>
+
+        <!-- Jumlah Barang -->
+        <TextView
+            android:id="@+id/text_item_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="16sp"/>
+
+        <!-- Total Harga -->
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <!-- Tombol Quantity dan Hapus -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center_vertical">
+
+        <!-- Tombol Quantity -->
+        <Button
+            android:id="@+id/button_quantity"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+
+        <!-- Tombol Hapus -->
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_round"
+            android:text="Del"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

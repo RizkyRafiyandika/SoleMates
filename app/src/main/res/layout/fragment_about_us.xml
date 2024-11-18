@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header TextView -->
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Company Description TextView -->
+        <TextView
+            android:id="@+id/company_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="8dp"
+            android:text="@string/aboutUs"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Thank You Message -->
+        <TextView
+            android:layout_marginTop="100dp"
+            android:layout_marginHorizontal="50dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="Thank You!"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Visit Our Store Message -->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:text="Thank You Don't forget to visit our Store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Map Fragment -->
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_margin="20dp" />
+
+        <!-- Login Prompt -->
+        <LinearLayout
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Click"/>
+            <TextView
+                android:id="@+id/textLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:text=" here"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text=" to return to the login page!"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

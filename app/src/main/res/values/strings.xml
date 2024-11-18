@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Project_Mandiri</string>
+    <string name="web_client">498346484356-gkkuob36n3fj7i77f5p6p7fsph6mm78b.apps.googleusercontent.com</string>
+    <string name="title_activity_drawer_home">drawer_home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Rama Nurmanogedov</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_aboutUs">About Us</string>
+    <string name="aboutUs">"SoleMates adalah aplikasi yang dirancang untuk memudahkan pengguna dalam mencari dan membeli berbagai jenis sepatu. Dengan desain yang intuitif dan fokus pada pengalaman pengguna, SoleMates menyediakan berbagai fitur yang berguna untuk para pembeli sepatu. Pengguna dapat dengan mudah menjelajahi katalog sepatu, melihat deskripsi lengkap setiap produk, serta melakukan pembelian langsung melalui aplikasi.
+
+Fitur utama dari SoleMates meliputi:
+
+Katalog Sepatu: Menampilkan berbagai pilihan sepatu dari berbagai merek dan model.
+Detail Produk: Informasi lengkap mengenai setiap sepatu, termasuk nama, gambar, deskripsi, dan harga.
+Penambahan ke Keranjang: Kemampuan untuk menambahkan sepatu ke dalam keranjang belanja dengan jumlah yang diinginkan.
+Checkout: Proses pembayaran yang mudah dan aman untuk menyelesaikan transaksi.
+Notifikasi Status Pesanan: Memberikan notifikasi kepada pengguna mengenai status pesanan mereka."</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
